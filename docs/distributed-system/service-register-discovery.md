@@ -14,7 +14,7 @@
 **参数说明**
 
 ```pr
-#eureka server刷新readCacheMap的时间，注意，client读取的是readCacheMap，这个时间决定了多久会把readWriteCacheMap的缓存更新到readCacheMap上
+#eureka server刷新readOnlyCacheMap的时间，注意，client读取的是readOnlyCacheMap，这个时间决定了多久会把readWriteCacheMap的缓存更新到readOnlyCacheMap上
 #默认30s，优化为3s
 eureka.server.responseCacheUpdateIntervalMs=3000
 
